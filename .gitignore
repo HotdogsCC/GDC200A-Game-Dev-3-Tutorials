@@ -72,3 +72,7 @@ Plugins/**/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+/Week 1/Binaries
+/Week 1/Build
+/Week 1/Intermediate
+/Week 1/Saved
