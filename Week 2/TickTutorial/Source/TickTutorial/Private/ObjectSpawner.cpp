@@ -15,7 +15,6 @@ AObjectSpawner::AObjectSpawner()
 void AObjectSpawner::BeginPlay()
 {
 	Super::BeginPlay();
-	SetLifeSpan(2.0f);
 }
 
 // Called every frame
@@ -37,4 +36,5 @@ void AObjectSpawner::SpawnReferencedActor()
 {
 	GetWorld()->SpawnActor<AActor>(ActorToSpawn);
 }
+
 
